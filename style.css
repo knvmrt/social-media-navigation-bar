@@ -1,0 +1,31 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#navmenu .boxes {
+  background-color: rgb(0, 255, 110);
+  width: 70px;
+  height: 510px;
+  border-radius: 8px;
+  margin: 5px;
+  position: fixed;
+  padding: auto;
+}
+#navmenu .boxes .box {
+  width: 70px;
+  height: 53px;
+  border-radius: 8px;
+  margin: 9px auto;
+  background-color: rgb(0, 255, 110);
+  flex-wrap: wrap;
+}
+#navmenu .boxes .box:hover {
+  transform: translateX(25px);
+}
+#navmenu .boxes .box a {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  margin-left: 13px;
+}
